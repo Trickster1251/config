@@ -1,7 +1,18 @@
 # ML4W dotfiles 2.8
 
+This is my configuration of Hyprland (Wayland) and Qtile (X11) for Arch Linux based distributions. This package includes an installation script to install and setup the required components.
 
-## Install arch linux
+<a href="https://gitlab.com/stephan-raabe/dotfiles/-/blob/main/screenshots/v28/screenshot-28-1.png?ref_type=heads" target="_blank"><img src="screenshots/v28/screenshot-28-1.png" /></a>
+
+PLEASE NOTE: This branch is the rolling release of the ML4W dotfiles and includes the latest changes. 
+
+Latest official release 2.8: <a href="https://youtu.be/6RNaBRSy-Zs" target="_blank">Watch on YouTube</a>
+
+You can find the installation video (Version 2.7.1) on YouTube: <a href="https://youtu.be/kHG5czrQ7WA" target="_blank">Install Arch Linux with Hyprland & Qtile</a>
+
+[TOC]
+
+# Install Arch Linux
 - create bootloader usb with iso from balena-etcher
 - `pacman -Sy archlinux-keyring archinstall`, update cli-tool for install
 - add in `Additional package` `git vim openssh iwd dhcpcd`
@@ -39,18 +50,6 @@
 - remap keys for me
 - no see icon in terminal
 - -- 
-
-This is my configuration of Hyprland (Wayland) and Qtile (X11) for Arch Linux based distributions. This package includes an installation script to install and setup the required components.
-
-<a href="https://gitlab.com/stephan-raabe/dotfiles/-/blob/main/screenshots/v28/screenshot-28-1.png?ref_type=heads" target="_blank"><img src="screenshots/v28/screenshot-28-1.png" /></a>
-
-PLEASE NOTE: This branch is the rolling release of the ML4W dotfiles and includes the latest changes. 
-
-Latest official release 2.8: <a href="https://youtu.be/6RNaBRSy-Zs" target="_blank">Watch on YouTube</a>
-
-You can find the installation video (Version 2.7.1) on YouTube: <a href="https://youtu.be/kHG5czrQ7WA" target="_blank">Install Arch Linux with Hyprland & Qtile</a>
-
-[TOC]
 
 # Installation
 

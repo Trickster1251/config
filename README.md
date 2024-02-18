@@ -1,5 +1,45 @@
 # ML4W dotfiles 2.8
 
+
+## Install arch linux
+- create bootloader usb with iso from balena-etcher
+- `pacman -Sy archlinux-keyring archinstall`, update cli-tool for install
+- add in `Additional package` `git vim openssh iwd dhcpcd`
+- select GRUB
+- select Desktop -> Hyprland
+- select `Network Manager` in Network settings
+- install and `reboot`
+
+## Setup dotfiles
+- git clone this repo in ~/Downloads
+- run `install.sh` and download all aditional package
+- in `dotfiles/hypr/monitors/default.conf` set current resolution
+- mkdir `~/wallpaper` and add wallpapers 
+
+## Enable bluetooth
+- `sudo systemctl start bluetooth`
+- `sudo systemctl enable bluez`
+- `pacman -Sy blueman`
+
+## Additiopnal packages
+- `thorium-browser`, very fast chromium-analogue
+- `obs` install from flatpak
+- `via`, need for QMK/VIA keyboard
+- `telegram-desktop`
+- `vlc`
+
+## Need to to
+- enable sound in bluetooth airpods
+- remove blur in app if set resolution with zoom more than 1.0
+- keyboard layout change
+- use middle bottom of mouse for see all workspaces
+- save screenshot-area in clipy
+- alias for open configs files, may be rewrite for one big config, like v c, vim config or c c, code config
+- search in google/youtube/reddit/hacker news in rofi bar
+- remap keys for me
+- no see icon in terminal
+- -- 
+
 This is my configuration of Hyprland (Wayland) and Qtile (X11) for Arch Linux based distributions. This package includes an installation script to install and setup the required components.
 
 <a href="https://gitlab.com/stephan-raabe/dotfiles/-/blob/main/screenshots/v28/screenshot-28-1.png?ref_type=heads" target="_blank"><img src="screenshots/v28/screenshot-28-1.png" /></a>

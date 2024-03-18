@@ -42,6 +42,9 @@ You can find the installation video (Version 2.7.1) on YouTube: <a href="https:/
 - `thorium-browser`, very fast chromium-analogue
 - `obs` install from flatpak
 - `via`, need for QMK/VIA keyboard
+- `obsidian`
+- `code`
+- `speedcrunch`, my favorite calculator
 - `telegram-desktop`
 - `vlc`
 

@@ -18,14 +18,20 @@ You can find the installation video (Version 2.7.1) on YouTube: <a href="https:/
 - add in `Additional package` `git vim openssh iwd dhcpcd`
 - select GRUB
 - select Desktop -> Hyprland
-- select `Network Manager` in Network settings
+- select `Copy current settings` in Network settings
 - install and `reboot`
 
 ## Setup dotfiles
 - git clone this repo in ~/Downloads
 - run `install.sh` and download all aditional package
+- select `sddm` in `install.sh` script.
 - in `dotfiles/hypr/monitors/default.conf` set current resolution
-- mkdir `~/wallpaper` and add wallpapers 
+- in `dotfiles/hypr/keyboard` set 
+```
+  kb_option = ctrl:nocaps, grp:alt_shift_toggle, ctrl:swap_lalt_lctl
+```
+- mkdir `~/wallpaper` and add wallpapers
+- setup alacritty, change .bashrc file, add `fish`
 
 ## Enable bluetooth
 - `sudo systemctl start bluetooth`

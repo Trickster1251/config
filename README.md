@@ -12,6 +12,8 @@ You can find the installation video (Version 2.7.1) on YouTube: <a href="https:/
 
 [TOC]
 
+### [How to install Arch Linux with Windows 11 Dual Boot](https://www.youtube.com/watch?v=4dKzYmhcGEU)
+
 # Install Arch Linux
 - create bootloader usb with iso from balena-etcher
 - `pacman -Sy archlinux-keyring archinstall`, update cli-tool for install
